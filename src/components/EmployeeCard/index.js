@@ -22,8 +22,7 @@ function EmployeeCard(props) {
             <strong>Age:</strong> {props.age}
           </li>
         </ul>
-      </div>
-      <span className="remove" id={props.id}>𝘅</span>
+      </div>  
     </div>
   );
 }
