@@ -2,7 +2,7 @@ import React from "react";
 
 function SortButton(props) {
     return (
-        <div className='row'>
+        <div className='row justify-content-md-center'>
             <div className="dropdown mx-1">
                 <button className="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-toggle="dropdown" aria-expanded="false">
                     Sort By

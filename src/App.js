@@ -1,6 +1,5 @@
 import React from 'react';
 import EmployeeCard from './components/EmployeeCard';
-import Wrapper from './components/Wrapper';
 import Title from './components/Title';
 import SortButton from './components/Buttons/index';
 import API from './utils/API'
@@ -47,7 +46,7 @@ export default class App extends React.Component {
   render() {
     console.log(this.state.result)
     return (
-      <Wrapper>
+      <div className='container'>
       <Title>Employee Directory:</Title>
       <SortButton
         sort={this.sortAscending}
@@ -68,7 +67,7 @@ export default class App extends React.Component {
           />
         ))}
       </div>
-    </Wrapper>
+    </div>
     )
   }
 }
